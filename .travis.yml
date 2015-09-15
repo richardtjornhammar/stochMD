@@ -1,0 +1,6 @@
+language: c
+sudo: false
+compiler:
+  - gcc
+install:
+  - gcc src/*.c -lm -o stochMD
