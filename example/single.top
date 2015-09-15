@@ -1,0 +1,11 @@
+;N  T  sig   eps  q    m
+18  1  0.34  120  0.0  39.94
+
+&molecule
+M LJ
+S 18 
+&
+
+&system
+LJ 1
+&

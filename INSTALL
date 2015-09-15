@@ -1,0 +1,6 @@
+To install the program issue the command
+
+gcc src/*.c -lm -o stochMD
+
+For any comments please contact:
+richard.tjornhammar@gmail.com

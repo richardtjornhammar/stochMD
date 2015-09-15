@@ -1,0 +1,10 @@
+NSTEPS  = 100000
+DT      = 0.001
+TREF    = 90
+TAUT    = 0.01
+CUTOFF  = 1.0
+DEBUG
+PREF    = 1.0
+TAUP    = 0.1
+MU      = 90
+GENV
