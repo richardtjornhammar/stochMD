@@ -8,12 +8,17 @@ temperature coupling is stochastic.
 
 # Build 
 
-To build the program issue the command:
+To build the program either issue the command:
 
 ```
 gcc src/*.c -lm -o stochMD
 ```
+or:
 
+```
+cmake .
+make
+```
 # License
 
 GPL-3
