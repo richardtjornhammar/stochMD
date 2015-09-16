@@ -2,5 +2,10 @@ language: c
 sudo: false
 compiler:
   - gcc
-install:
-  - gcc src/*.c -lm -o stochMD
+
+before_script:
+  - mkdir build
+  - cd build
+  - cmake ..
+
+script: make
