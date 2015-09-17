@@ -121,7 +121,7 @@ double spec_angle(vector a, vector b)
 
 double dih_angle(int i, int j, int k, int l, t_frame pframe,
                vector r_ij,vector r_kj,vector r_kl,vector m,vector n,
-               double *sign) //, int *t1, int *t2, int *t3)
+               double *sign) 
 {
   double ipr,phi;
 
