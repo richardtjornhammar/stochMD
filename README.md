@@ -19,6 +19,13 @@ or:
 cmake .
 make
 ```
+
+# Run a grand canonical argon simulation :
+To run the program issue commands like so (MD and MC):
+```
+./stochMD -i example/argon.inp -c example/single.xyz -p example/single.top -o argon.nfo MC
+```
+
 # License
 
 GPL-3
