@@ -26,6 +26,9 @@ To run the program issue commands like so (MD and MC):
 ./stochMD -i example/argon.inp -c example/single.xyz -p example/single.top -o argon.nfo MC
 ```
 
+MD stands for traditional Molecular Dynamics with a constant amount of particles.
+MC stands for Monte Carlo since I have implemented a Monte Carlo method for particle addition/removal.
+
 # License
 
 GPL-3
