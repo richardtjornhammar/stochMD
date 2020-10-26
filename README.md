@@ -21,7 +21,7 @@ make
 ```
 
 # Run a grand canonical argon simulation :
-To run the program issue commands like so (MD and MC):
+To run the program issue commands like so (could be MD) but the Grand Canonical ensemble requires Monte Carlo updating:
 ```
 ./stochMD -i example/argon.inp -c example/single.xyz -p example/single.top -o argon.nfo MC
 ```
